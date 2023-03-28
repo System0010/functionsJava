@@ -6,5 +6,10 @@ public class app1 {
 
     int iFinalPrice = f.getPriceWiva(300);
     System.out.println("the Integer final price is " + iFinalPrice + "$");
+
+
+    String[] nombres = {"juan","pedro","alberto","jaime","natalia","emilio"};
+    Leer lectura = new Leer();
+    lectura.LeerNombres(nombres);
   }
 }
