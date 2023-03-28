@@ -8,8 +8,8 @@ public class app1 {
     System.out.println("the Integer final price is " + iFinalPrice + "$");
 
 
-    String[] nombres = {"juan","pedro","alberto","jaime","natalia","emilio"};
+    String[] names = {"juan","pedro","alberto","jaime","natalia","emilio"};
     Leer lectura = new Leer();
-    lectura.LeerNombres(nombres);
+    lectura.LeerNombres(names);
   }
 }
